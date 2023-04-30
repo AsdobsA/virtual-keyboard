@@ -1,0 +1,226 @@
+.container-body {
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.textarea {
+    display: block;
+    margin: 10px auto 10px;
+    padding: 10px;
+    width: 700px;
+    height: 200px;
+}
+
+.textlang {
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.textlang-check {
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-keyboard {
+    height: 240px;
+    width: 704px;
+    margin: 0 auto;
+    padding: 5px;
+    padding-left: 0;
+    padding-bottom: 0;
+    background-color: rgb(100, 100, 100);
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.key-keyboard {
+    margin-bottom: 8px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    transition: .3s;
+}
+
+.backspace,
+.shift-left,
+.caps-lock {
+    float: left;
+    margin-bottom: 8px;
+    height: 40px;
+    margin-left: 6px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: .3s;
+    width: 100px;
+}
+
+.tab {
+    width: 50px;
+    float: left;
+    margin-bottom: 8px;
+    height: 40px;
+    margin-left: 6px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: .3s;
+}
+
+.del {
+    width: 44px;
+    float: left;
+    margin-bottom: 8px;
+    height: 40px;
+    margin-left: 6px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: .3s;
+}
+
+.enter,
+.shift-rigth {
+    width: 86px;
+    float: left;
+    margin-bottom: 8px;
+    height: 40px;
+    margin-left: 6px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: .3s;
+}
+
+.space {
+    width: 330px;
+    float: left;
+    margin-bottom: 8px;
+    height: 40px;
+    margin-left: 6px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: .3s;
+}
+
+.ctrl-left,
+.win,
+.alt-left,
+.arrow-left,
+.ctrl-rigth,
+.arrow-up,
+.arrow-rigth,
+.arrow-down,
+.alt-rigth {
+    width: 40px;
+    float: left;
+    margin-bottom: 8px;
+    height: 40px;
+    margin-left: 6px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: .3s;
+}
+
+.key-keyboard:hover,
+.backspace:hover,
+.shift-left:hover,
+.caps-lock:hover,
+.tab:hover,
+.del:hover,
+.enter:hover,
+.shift-rigth:hover,
+.ctrl-left:hover,
+.win:hover,
+.alt-left:hover,
+.arrow-left:hover,
+.ctrl-rigth:hover,
+.arrow-up:hover,
+.arrow-rigth:hover,
+.arrow-down:hover,
+.alt-rigth:hover,
+.space:hover {
+    background-color: rgb(87, 155, 129);
+}
+
+.key-keyboard:active,
+.del:active,
+.ctrl-left:active,
+.win:active,
+.alt-left:active,
+.arrow-left:active,
+.ctrl-rigth:active,
+.arrow-up:active,
+.arrow-rigth:active,
+.arrow-down:active,
+.alt-rigth:active {
+    border-radius: 40px;
+    background-color: rgb(0, 99, 61);
+}
+
+.space:active {
+    border-radius: 40px;
+    background-color: rgb(0, 99, 61);
+}
+
+.enter:active,
+.shift-rigth:active {
+    border-radius: 40px;
+    background-color: rgb(0, 99, 61);
+}
+
+.tab:active {
+    border-radius: 40px;
+    background-color: rgb(0, 99, 61);
+}
+
+.backspace:active,
+.shift-left:active,
+.caps-lock:active  {
+    border-radius: 40px;
+    background-color: rgb(0, 99, 61);
+}
+
+.active {
+    border-radius: 40px;
+    background-color: rgb(0, 99, 61);
+}
